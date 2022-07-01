@@ -21,4 +21,4 @@
 
 #dotnet test
 
-dotnet husky run --name dotnet-format-example "$1" "$2"
+dotnet husky run --name dotnet-format-example --args "$1" "$2"
