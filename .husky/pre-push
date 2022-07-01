@@ -19,4 +19,6 @@
 ## or put your custom commands -------------------
 #echo 'Husky.Net is awesome!'
 
-dotnet test
+#dotnet test
+
+dotnet husky run --name dotnet-format-example "$1" "$2"
