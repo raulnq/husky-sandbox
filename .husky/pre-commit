@@ -19,7 +19,7 @@
 ## or put your custom commands -------------------
 #echo 'Husky.Net is awesome!'
 
-echo 'pre-commit'
+echo 'running pre-commit'
 dotnet test
 
 
