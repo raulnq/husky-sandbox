@@ -19,7 +19,5 @@
 ## or put your custom commands -------------------
 #echo 'Husky.Net is awesome!'
 
-echo 'pre-commit'
-dotnet test
-
-
+echo 'prepare-commit-msg'
+husky exec .husky/add-branch-name.csx --args "$1"

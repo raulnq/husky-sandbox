@@ -13,6 +13,6 @@ public class CalculatorTests
 
         var r = sut.Sum(x, y);
 
-        Assert.AreEqual(z, 1);
+        Assert.AreEqual(z, r);
     }
 }
