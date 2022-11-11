@@ -20,4 +20,4 @@
 #echo 'Husky.Net is awesome!'
 
 echo 'running pre-push'
-dotnet test --filter "TestCategory=Slow Category"
+dotnet test --filter "TestCategory=Slow"

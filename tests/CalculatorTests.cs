@@ -9,11 +9,11 @@ public class CalculatorTests
     [TestCategory("Fast")]
     public void sum_1_and_2_should_be_3()
     {
-        var sut = new Calculator();
+var sut = new Calculator();
 
-        var r = sut.Sum(1, 2);
+        var result = sut.Sum(1, 2);
 
-        Assert.AreEqual(3, r);
+        Assert.AreEqual(3, result);
     }
 
     [TestMethod]

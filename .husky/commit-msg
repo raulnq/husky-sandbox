@@ -19,4 +19,5 @@
 ## or put your custom commands -------------------
 #echo 'Husky.Net is awesome!'
 
-#husky exec .husky/commit-lint.csx --args "$1"
+echo 'running commit-msg'
+husky exec .husky/commit-lint.csx --args "$1"
