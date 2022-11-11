@@ -20,12 +20,10 @@ if (proc.ExitCode != 0)
     return proc.ExitCode.ToString();
 }
 var branch = proc.StandardOutput.ReadToEnd();
-Console.WriteLine(branch);
-
 var file = Args[0];
-string currentContent = String.Empty;
+
 if (File.Exists(file))
 {
-    currentContent = File.ReadAllText(file);
-    File.WriteAllText(file, $"{branch.Trim()}:" + currentContent );
+    var content = File.ReadAllText(file);
+    File.WriteAllText(file, $"{branch.Trim()} " + content );
 }
