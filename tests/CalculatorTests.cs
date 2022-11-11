@@ -11,9 +11,9 @@ public class CalculatorTests
     {
 var sut = new Calculator();
 
-        var result = sut.Sum(1, 2);
+        var r = sut.Sum(1, 2);
 
-        Assert.AreEqual(3, result);
+        Assert.AreEqual(3, r);
     }
 
     [TestMethod]
