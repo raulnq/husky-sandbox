@@ -6,18 +6,6 @@ namespace tests;
 public class CalculatorTests
 {
     [TestMethod]
-    [TestCategory("Fast")]
-    public void sum_1_and_2_should_be_3()
-    {
-var sut = new Calculator();
-
-        var result = sut.Sum(1, 2);
-
-        Assert.AreEqual(3, result);
-    }
-
-    [TestMethod]
-    [TestCategory("Slow")]
     [DataRow(1, 2, 3)]
     [DataRow(2, 2, 4)]
     [DataRow(0, 0, 0)]
