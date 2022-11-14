@@ -20,4 +20,4 @@
 #echo 'Husky.Net is awesome!'
 
 echo 'running prepare-commit-msg'
-husky exec .husky/add-branch-name.csx --args "$1"
+#husky exec .husky/add-branch-name.csx --args "$1"
